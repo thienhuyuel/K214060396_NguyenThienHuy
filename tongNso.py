@@ -4,4 +4,4 @@ def tong(n):
         s+=i
     return s
 n=int(input('nhập vào số N:'))
-print("Tổng N là: {}".format(tong(n)))
+print("Tổng N là:",tong(n))
