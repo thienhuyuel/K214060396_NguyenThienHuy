@@ -1,8 +1,10 @@
 flag=0
 while True:
+#nhập ngày tháng năm
     day=int(input('Nhập ngày:'))
     month=int(input('Nhập tháng:'))
     year=int(input('Nhập năm:'))
+#kiểm tra
     if year%4==0:
         print(year,'là năm nhuận')
         if month==2 and day<=29:
